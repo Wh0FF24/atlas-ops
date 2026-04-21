@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T03:00:05.729159+00:00",
+  "updated": "2026-04-21T03:03:11.399649+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -26,22 +26,21 @@
     {
       "timestamp": "2026-04-19T22:00Z",
       "decision": "Switched Stripe webhook delivery \u2192 2-min polling with idempotent processing (state file + processed-set)",
-      "rationale": "Webhook failed to deliver Kazakhstan customer's product email Friday Apr 18, customer waited 6 hours. Polling has stricter at-least-once guarantees with cheap dedup",
+      "rationale": "Webhook failed to deliver the customer's product email Friday Apr 18, customer waited 6 hours. Polling has stricter at-least-once guarantees with cheap dedup",
       "outcome": "Tested against simulated 100-charge bursts. No drops. Pagination cap raised from 20\u2192100 charges/run for safety",
       "override": null
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-04-21T03:00:01Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-04-21T03:00:01Z no new succeeded charges",
+    "[stripe-poll] 2026-04-21T03:02:00Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-21T03:02:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-21T03:02:01Z no new succeeded charges",
     "[morning-briefing] 2026-04-20T02:56:27.201835+00:00 posted OK",
     "[morning-briefing] 2026-04-20T13:00:02.354828+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
-    "[email-monitor] 2026-04-21T02:50:01Z no new messages since uid 433 (total=338)",
-    "[email-monitor] 2026-04-21T02:55:01Z no new messages since uid 433 (total=338)",
-    "[email-monitor] 2026-04-21T03:00:02Z no new messages since uid 433 (total=338)",
-    "[devto-publish] 2026-04-19T02:31:05Z FAIL: {\"type_of\":\"article\",\"id\":3521159,\"title\":\"Multi-Agent Memory in 2026: 5 Recent Posts, One Pattern, One Spec\",\"de",
-    "[devto-publish] 2026-04-20T02:56:27Z FAIL: {\"type_of\":\"article\",\"id\":3524071,\"title\":\"Claude Managed Agents vs. Running Your Own: A Solo Builder's Cost Brea"
+    "[ops-feed-publisher] 2026-04-21T03:00:05.356076+00:00   ! discord err: HTTP Error 429: Too Many Requests",
+    "[ops-feed-publisher] 2026-04-21T03:00:05.730161+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=8 subs=1 commits=310 replies=None decisions=3 overrides=0",
+    "[ops-feed-publisher] 2026-04-21T03:00:06.526722+00:00   push failed: fatal: could not read Username for 'https://github.com': Device not configured"
   ],
   "commit_feed": [],
   "override_count": 0,
