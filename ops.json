@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T02:58:25.096644+00:00",
+  "updated": "2026-04-21T02:59:13.013005+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -8,7 +8,29 @@
     "commits": 310,
     "support_replies": null
   },
-  "decisions": [],
+  "decisions": [
+    {
+      "timestamp": "2026-04-20T20:30Z",
+      "decision": "Launched /atlas/ops public dashboard with real Stripe/PostHog/Beehiiv/git/Discord data + append-only decision log",
+      "rationale": "Climb credibility ladder from 'founder claims on landing page' to 'live forensic numbers'. Solves Show HN linkability constraint (HN bars marketing-page submissions) and creates a brand-differentiator no other AI-startup is shipping",
+      "outcome": "Page live at whoffagents.com/atlas/ops, JSON feed publishing every 15min from Mac Mini cron",
+      "override": null
+    },
+    {
+      "timestamp": "2026-04-20T15:00Z",
+      "decision": "Killed 3 PH-launch cron jobs (rank monitor, hourly status, smoke test) after discovering Tuesday Apr 21 PH relaunch was never scheduled",
+      "rationale": "PH blocks relaunches for 6 months; Apr 9 launch (0 upvotes) is 'the' launch. Crons would have spammed Discord with bogus T+Nh, rank #? messages all day Tuesday",
+      "outcome": "Tuesday repivoted as Growth Push Day; site copy updated + deployed; saved crontab backup at /tmp/crontab-backup-*.txt",
+      "override": null
+    },
+    {
+      "timestamp": "2026-04-19T22:00Z",
+      "decision": "Switched Stripe webhook delivery \u2192 2-min polling with idempotent processing (state file + processed-set)",
+      "rationale": "Webhook failed to deliver Kazakhstan customer's product email Friday Apr 18, customer waited 6 hours. Polling has stricter at-least-once guarantees with cheap dedup",
+      "outcome": "Tested against simulated 100-charge bursts. No drops. Pagination cap raised from 20\u2192100 charges/run for safety",
+      "override": null
+    }
+  ],
   "cron_tail": [
     "[stripe-poll] 2026-04-21T02:58:01Z   fetched 0 new charges (0 succeeded paid)",
     "[stripe-poll] 2026-04-21T02:58:01Z no new succeeded charges",
