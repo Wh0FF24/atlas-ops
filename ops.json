@@ -1,15 +1,26 @@
 {
-  "updated": null,
+  "updated": "2026-04-21T02:58:25.096644+00:00",
   "counters": {
-    "revenue_usd": null,
-    "customers": null,
-    "newsletter_subs": null,
-    "site_uniques_24h": null,
-    "commits": null,
+    "revenue_usd": 49.0,
+    "customers": 1,
+    "newsletter_subs": 1,
+    "site_uniques_24h": 8,
+    "commits": 310,
     "support_replies": null
   },
   "decisions": [],
-  "cron_tail": [],
+  "cron_tail": [
+    "[stripe-poll] 2026-04-21T02:58:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-21T02:58:01Z no new succeeded charges",
+    "[morning-briefing] 2026-04-20T02:56:27.201835+00:00 posted OK",
+    "[morning-briefing] 2026-04-20T13:00:02.354828+00:00 posting briefing (285 chars)",
+    "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
+    "[email-monitor] 2026-04-21T02:45:02Z no new messages since uid 433 (total=338)",
+    "[email-monitor] 2026-04-21T02:50:01Z no new messages since uid 433 (total=338)",
+    "[email-monitor] 2026-04-21T02:55:01Z no new messages since uid 433 (total=338)",
+    "[devto-publish] 2026-04-19T02:31:05Z FAIL: {\"type_of\":\"article\",\"id\":3521159,\"title\":\"Multi-Agent Memory in 2026: 5 Recent Posts, One Pattern, One Spec\",\"de",
+    "[devto-publish] 2026-04-20T02:56:27Z FAIL: {\"type_of\":\"article\",\"id\":3524071,\"title\":\"Claude Managed Agents vs. Running Your Own: A Solo Builder's Cost Brea"
+  ],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
