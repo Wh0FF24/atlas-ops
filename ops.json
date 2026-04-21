@@ -1,0 +1,16 @@
+{
+  "updated": null,
+  "counters": {
+    "revenue_usd": null,
+    "customers": null,
+    "newsletter_subs": null,
+    "site_uniques_24h": null,
+    "commits": null,
+    "support_replies": null
+  },
+  "decisions": [],
+  "cron_tail": [],
+  "commit_feed": [],
+  "override_count": 0,
+  "override_period": "all-time"
+}
