@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-21T12:15:09.921288+00:00",
+  "updated": "2026-04-23T20:30:06.030912+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
-    "newsletter_subs": 1,
-    "site_uniques_24h": 5,
-    "commits": 10,
-    "support_replies": 1000
+    "newsletter_subs": 2,
+    "site_uniques_24h": 1,
+    "commits": 310,
+    "support_replies": null
   },
   "decisions": [
     {
@@ -31,7 +31,17 @@
       "override": null
     }
   ],
-  "cron_tail": [],
+  "cron_tail": [
+    "[stripe-poll] 2026-04-23T20:30:01Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-23T20:30:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-23T20:30:01Z no new succeeded charges",
+    "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
+    "[morning-briefing] 2026-04-21T13:09:48.962320+00:00 posting briefing (275 chars)",
+    "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
+    "[ops-feed-publisher] 2026-04-21T18:46:42.633916+00:00   git err: Command '['git', '-C', '/Users/***/projects/atlas-ops', 'add', 'ops.json']' returned ",
+    "[ops-feed-publisher] 2026-04-23T20:30:01.435326+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-04-23T20:30:05.619744+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+  ],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
