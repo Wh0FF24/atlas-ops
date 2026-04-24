@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-24T15:26:35.850436+00:00",
+  "updated": "2026-04-24T16:08:57.125928+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
-    "newsletter_subs": 3,
+    "newsletter_subs": null,
     "site_uniques_24h": 5,
-    "commits": 153,
+    "commits": 12,
     "support_replies": 1000
   },
   "decisions": [
@@ -32,15 +32,12 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-04-24T15:19:04Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-04-24T15:19:34Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-04-24T15:19:35Z no new succeeded charges",
     "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
     "[morning-briefing] 2026-04-24T13:17:56.580407+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-04-24T13:18:29.787627+00:00 posted OK",
-    "[ops-feed-publisher] 2026-04-24T15:16:46.258337+00:00   attempt 3/3 failed: git timeout after 10s",
-    "[ops-feed-publisher] 2026-04-24T15:16:47.637341+00:00   commit/push FAILED after 3 attempts: git timeout after 10s",
-    "[ops-feed-publisher] 2026-04-24T15:17:21.276219+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',"
+    "[ops-feed-publisher] Python(682) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.",
+    "[ops-feed-publisher] Python(700) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.",
+    "[ops-feed-publisher] Python(701) MallocStackLogging: can't turn off malloc stack logging because it was not enabled."
   ],
   "commit_feed": [],
   "override_count": 0,
