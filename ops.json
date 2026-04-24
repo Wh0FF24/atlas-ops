@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-24T13:08:58.297542+00:00",
+  "updated": "2026-04-24T13:31:46.691546+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 3,
-    "commits": null,
-    "support_replies": null
+    "commits": 12,
+    "support_replies": 1000
   },
   "decisions": [
     {
@@ -32,9 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[ops-feed-publisher] 2026-04-24T13:05:10.651661+00:00   ! discord err: Remote end closed connection without response",
-    "[ops-feed-publisher] 2026-04-24T13:05:11.239487+00:00   ! discord err: Remote end closed connection without response",
-    "[ops-feed-publisher] 2026-04-24T13:06:22.545463+00:00 publishing ops feed..."
+    "[stripe-poll] 2026-04-24T13:29:13Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-24T13:30:41Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-24T13:30:43Z no new succeeded charges",
+    "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
+    "[morning-briefing] 2026-04-24T13:17:56.580407+00:00 posting briefing (285 chars)",
+    "[morning-briefing] 2026-04-24T13:18:29.787627+00:00 posted OK",
+    "[ops-feed-publisher] 2026-04-24T13:12:40.819966+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
+    "[ops-feed-publisher] 2026-04-24T13:18:11.530465+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-04-24T13:30:27.551051+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
