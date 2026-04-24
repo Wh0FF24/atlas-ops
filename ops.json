@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-24T14:06:32.177097+00:00",
+  "updated": "2026-04-24T14:37:26.985183+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 3,
-    "commits": 153,
-    "support_replies": null
+    "commits": 440,
+    "support_replies": 1000
   },
   "decisions": [
     {
@@ -31,7 +31,17 @@
       "override": null
     }
   ],
-  "cron_tail": [],
+  "cron_tail": [
+    "[stripe-poll] 2026-04-24T14:35:42Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-24T14:35:43Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-24T14:35:43Z no new succeeded charges",
+    "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
+    "[morning-briefing] 2026-04-24T13:17:56.580407+00:00 posting briefing (285 chars)",
+    "[morning-briefing] 2026-04-24T13:18:29.787627+00:00 posted OK",
+    "[ops-feed-publisher] 2026-04-24T14:26:33.848706+00:00   commit/push FAILED after 3 attempts: git timeout after 5s",
+    "[ops-feed-publisher] 2026-04-24T14:26:57.605007+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
+    "[ops-feed-publisher] 2026-04-24T14:30:31.427687+00:00 publishing ops feed..."
+  ],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
