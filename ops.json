@@ -1,10 +1,10 @@
 {
-  "updated": "2026-04-24T06:00:08.252025+00:00",
+  "updated": "2026-04-24T06:15:05.870141+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
-    "site_uniques_24h": 2,
+    "site_uniques_24h": 3,
     "commits": 440,
     "support_replies": null
   },
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-04-24T06:00:01Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-04-24T06:00:01Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-04-24T06:00:01Z no new succeeded charges",
+    "[stripe-poll] 2026-04-24T06:14:01Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-24T06:14:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-24T06:14:01Z no new succeeded charges",
     "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
     "[morning-briefing] 2026-04-21T13:09:48.962320+00:00 posting briefing (275 chars)",
     "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
-    "[ops-feed-publisher] 2026-04-24T05:45:07.259552+00:00   pushed.",
-    "[ops-feed-publisher] 2026-04-24T06:00:01.087904+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-04-24T06:00:07.644557+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-04-24T06:00:10.915801+00:00   pushed.",
+    "[ops-feed-publisher] 2026-04-24T06:15:01.565577+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-04-24T06:15:05.493895+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
