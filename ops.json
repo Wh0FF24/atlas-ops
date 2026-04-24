@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-24T12:39:32.611738+00:00",
+  "updated": "2026-04-24T13:08:58.297542+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 3,
-    "commits": 428,
-    "support_replies": 1000
+    "commits": null,
+    "support_replies": null
   },
   "decisions": [
     {
@@ -32,12 +32,9 @@
     }
   ],
   "cron_tail": [
-    "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
-    "[morning-briefing] 2026-04-21T13:09:48.962320+00:00 posting briefing (275 chars)",
-    "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
-    "[ops-feed-publisher] 2026-04-24T12:33:13.116111+00:00   attempt 3/3 failed: git timeout after 10s",
-    "[ops-feed-publisher] 2026-04-24T12:33:14.387574+00:00   commit/push FAILED after 3 attempts: git timeout after 10s",
-    "[ops-feed-publisher] 2026-04-24T12:33:51.559791+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',"
+    "[ops-feed-publisher] 2026-04-24T13:05:10.651661+00:00   ! discord err: Remote end closed connection without response",
+    "[ops-feed-publisher] 2026-04-24T13:05:11.239487+00:00   ! discord err: Remote end closed connection without response",
+    "[ops-feed-publisher] 2026-04-24T13:06:22.545463+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
