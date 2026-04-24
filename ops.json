@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-24T07:23:07.740378+00:00",
+  "updated": "2026-04-24T11:04:08.433830+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 3,
-    "commits": 440,
+    "commits": null,
     "support_replies": 1000
   },
   "decisions": [
@@ -31,17 +31,7 @@
       "override": null
     }
   ],
-  "cron_tail": [
-    "[stripe-poll] 2026-04-24T07:19:32Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-04-24T07:19:38Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-04-24T07:19:38Z no new succeeded charges",
-    "[morning-briefing] 2026-04-20T13:00:03.048470+00:00 posted OK",
-    "[morning-briefing] 2026-04-21T13:09:48.962320+00:00 posting briefing (275 chars)",
-    "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
-    "[ops-feed-publisher] 2026-04-24T07:02:21.646019+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=3 subs=3 commits=440 replies=None decisions=3 overrides=0",
-    "[ops-feed-publisher] 2026-04-24T07:02:25.759888+00:00   pushed.",
-    "[ops-feed-publisher] 2026-04-24T07:19:32.242521+00:00 publishing ops feed..."
-  ],
+  "cron_tail": [],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
