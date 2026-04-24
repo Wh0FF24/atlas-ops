@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-24T16:52:58.437617+00:00",
+  "updated": "2026-04-24T19:58:20.356396+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
-    "site_uniques_24h": 5,
-    "commits": 12,
-    "support_replies": 1000
+    "site_uniques_24h": 7,
+    "commits": 440,
+    "support_replies": null
   },
   "decisions": [
     {
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-04-24T16:47:43Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-04-24T16:49:20Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-04-24T16:49:21Z no new succeeded charges",
+    "[stripe-poll] 2026-04-24T19:58:16Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-04-24T19:58:16Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-04-24T19:58:16Z no new succeeded charges",
     "[morning-briefing] 2026-04-21T13:09:49.448709+00:00 posted OK",
     "[morning-briefing] 2026-04-24T13:17:56.580407+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-04-24T13:18:29.787627+00:00 posted OK",
-    "[ops-feed-publisher] Python(8685) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.",
-    "[ops-feed-publisher] Python(8750) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.",
-    "[ops-feed-publisher] Python(8767) MallocStackLogging: can't turn off malloc stack logging because it was not enabled."
+    "[ops-feed-publisher] 2026-04-24T19:54:36.338006+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
+    "[ops-feed-publisher] 2026-04-24T19:58:02.837551+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-04-24T19:58:19.907119+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
