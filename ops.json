@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-06T17:15:25.382349+00:00",
+  "updated": "2026-05-06T18:03:42.649570+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
-    "newsletter_subs": null,
+    "newsletter_subs": 3,
     "site_uniques_24h": 3,
     "commits": 12,
-    "support_replies": null
+    "support_replies": 1000
   },
   "decisions": [
     {
@@ -31,7 +31,17 @@
       "override": null
     }
   ],
-  "cron_tail": [],
+  "cron_tail": [
+    "[stripe-poll] 2026-05-06T18:02:42Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-06T18:03:28Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-06T18:03:28Z no new succeeded charges",
+    "[morning-briefing] 2026-04-25T13:00:04.154724+00:00 posted OK",
+    "[morning-briefing] 2026-05-06T13:51:15.975741+00:00 posting briefing (285 chars)",
+    "[morning-briefing] 2026-05-06T13:53:50.828158+00:00 posted OK",
+    "[ops-feed-publisher] 2026-05-06T17:18:12.560418+00:00   commit/push FAILED after 3 attempts: git rc=128",
+    "[ops-feed-publisher] Python(49650) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.",
+    "[ops-feed-publisher] 2026-05-06T18:00:30.041293+00:00 publishing ops feed..."
+  ],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
