@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T06:13:03.993283+00:00",
+  "updated": "2026-05-09T07:00:06.445917+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-05-09T06:12:58Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-05-09T06:12:58Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-05-09T06:12:58Z no new succeeded charges",
+    "[stripe-poll] 2026-05-09T07:00:00Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-09T07:00:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-09T07:00:01Z no new succeeded charges",
     "[morning-briefing] 2026-05-07T13:00:02.559685+00:00 posted OK",
     "[morning-briefing] 2026-05-08T13:00:04.590663+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-05-08T13:00:04.849259+00:00 posted OK",
-    "[ops-feed-publisher] 2026-05-09T06:13:03.237909+00:00   ! discord err: HTTP Error 429: Too Many Requests",
-    "[ops-feed-publisher] 2026-05-09T06:13:03.654967+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=5 subs=3 commits=463 replies=None decisions=3 overrides=0",
-    "[ops-feed-publisher] 2026-05-09T06:13:03.746045+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-05-09T06:13:09.184915+00:00   commit/push FAILED after 3 attempts: git rc=1",
+    "[ops-feed-publisher] 2026-05-09T07:00:00.937338+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-05-09T07:00:06.029113+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
