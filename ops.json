@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-09T18:00:18.526644+00:00",
+  "updated": "2026-05-09T19:01:26.376291+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 8,
     "commits": 470,
-    "support_replies": 1000
+    "support_replies": null
   },
   "decisions": [
     {
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-05-09T18:00:00Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-05-09T18:00:01Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-05-09T18:00:01Z no new succeeded charges",
+    "[stripe-poll] 2026-05-09T19:01:19Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-09T19:01:20Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-09T19:01:20Z no new succeeded charges",
     "[morning-briefing] 2026-05-08T13:00:04.849259+00:00 posted OK",
     "[morning-briefing] 2026-05-09T13:00:02.083355+00:00 posting briefing (275 chars)",
     "[morning-briefing] 2026-05-09T13:00:02.770865+00:00 posted OK",
-    "[ops-feed-publisher] 2026-05-09T17:00:12.171276+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=9 subs=3 commits=464 replies=None decisions=3 overrides=0",
-    "[ops-feed-publisher] 2026-05-09T17:00:14.386711+00:00   pushed.",
-    "[ops-feed-publisher] 2026-05-09T18:00:00.768020+00:00 publishing ops feed..."
+    "[ops-feed-publisher] 2026-05-09T18:01:38.515601+00:00   commit/push FAILED after 3 attempts: git rc=1",
+    "[ops-feed-publisher] 2026-05-09T19:01:18.662751+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-05-09T19:01:25.914749+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
