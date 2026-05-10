@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-10T02:30:55.817766+00:00",
+  "updated": "2026-05-10T03:11:29.012719+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 8,
-    "commits": 184,
+    "commits": 20,
     "support_replies": 1000
   },
   "decisions": [
@@ -32,12 +32,15 @@
     }
   ],
   "cron_tail": [
+    "[stripe-poll] 2026-05-10T03:09:32Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-10T03:09:36Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-10T03:09:36Z no new succeeded charges",
     "[morning-briefing] 2026-05-08T13:00:04.849259+00:00 posted OK",
     "[morning-briefing] 2026-05-09T13:00:02.083355+00:00 posting briefing (275 chars)",
     "[morning-briefing] 2026-05-09T13:00:02.770865+00:00 posted OK",
-    "[ops-feed-publisher] 2026-05-10T01:26:18.293290+00:00   commit/push FAILED after 3 attempts: git timeout after 5s",
-    "[ops-feed-publisher] 2026-05-10T01:26:56.554167+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
-    "[ops-feed-publisher] 2026-05-10T02:09:46.543499+00:00 publishing ops feed..."
+    "[ops-feed-publisher] 2026-05-10T02:33:03.032963+00:00   commit/push FAILED after 3 attempts: git rc=1",
+    "[ops-feed-publisher] 2026-05-10T02:33:31.121089+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
+    "[ops-feed-publisher] 2026-05-10T03:00:21.356589+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
