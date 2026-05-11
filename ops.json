@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-10T19:51:07.910091+00:00",
+  "updated": "2026-05-11T03:43:36.026761+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
-    "site_uniques_24h": 3,
-    "commits": 20,
-    "support_replies": 1000
+    "site_uniques_24h": 4,
+    "commits": null,
+    "support_replies": null
   },
   "decisions": [
     {
@@ -31,7 +31,11 @@
       "override": null
     }
   ],
-  "cron_tail": [],
+  "cron_tail": [
+    "[ops-feed-publisher] 2026-05-11T02:42:51.179632+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
+    "[ops-feed-publisher] 2026-05-11T03:19:33.941686+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-05-11T03:39:43.798612+00:00   ! discord err: Remote end closed connection without response"
+  ],
   "commit_feed": [],
   "override_count": 0,
   "override_period": "all-time"
