@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T22:00:06.343164+00:00",
+  "updated": "2026-05-11T23:00:07.336380+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-05-11T22:00:00Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-05-11T22:00:01Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-05-11T22:00:01Z no new succeeded charges",
+    "[stripe-poll] 2026-05-11T23:00:01Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-11T23:00:02Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-11T23:00:02Z no new succeeded charges",
     "[morning-briefing] 2026-05-10T13:57:41.884914+00:00 discord fail: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
     "[morning-briefing] 2026-05-11T14:11:59.482974+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-05-11T14:15:05.194786+00:00 posted OK",
-    "[ops-feed-publisher] 2026-05-11T21:53:43.666342+00:00   ! will-ping err: Command '['/Users/***/.atlas/bin/will-ping.py', 'ops-feed publisher failing',",
-    "[ops-feed-publisher] 2026-05-11T22:00:00.838571+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-05-11T22:00:05.941454+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-05-11T22:00:08.762873+00:00   pushed.",
+    "[ops-feed-publisher] 2026-05-11T23:00:01.648965+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-05-11T23:00:06.877664+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
