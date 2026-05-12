@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-12T05:00:06.153547+00:00",
+  "updated": "2026-05-12T06:00:07.177749+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
-    "site_uniques_24h": 9,
+    "site_uniques_24h": 10,
     "commits": 472,
     "support_replies": null
   },
@@ -32,15 +32,15 @@
     }
   ],
   "cron_tail": [
-    "[stripe-poll] 2026-05-12T05:00:00Z polling Stripe charges (last_seen=*** processed=2)",
-    "[stripe-poll] 2026-05-12T05:00:01Z   fetched 0 new charges (0 succeeded paid)",
-    "[stripe-poll] 2026-05-12T05:00:01Z no new succeeded charges",
+    "[stripe-poll] 2026-05-12T06:00:01Z polling Stripe charges (last_seen=*** processed=2)",
+    "[stripe-poll] 2026-05-12T06:00:01Z   fetched 0 new charges (0 succeeded paid)",
+    "[stripe-poll] 2026-05-12T06:00:01Z no new succeeded charges",
     "[morning-briefing] 2026-05-10T13:57:41.884914+00:00 discord fail: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
     "[morning-briefing] 2026-05-11T14:11:59.482974+00:00 posting briefing (285 chars)",
     "[morning-briefing] 2026-05-11T14:15:05.194786+00:00 posted OK",
-    "[ops-feed-publisher] 2026-05-12T04:00:09.387702+00:00   pushed.",
-    "[ops-feed-publisher] 2026-05-12T05:00:00.863320+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-05-12T05:00:05.680629+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-05-12T05:00:07.695666+00:00   pushed.",
+    "[ops-feed-publisher] 2026-05-12T06:00:01.145064+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-05-12T06:00:06.714894+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
