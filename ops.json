@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-14T09:00:10.516869+00:00",
+  "updated": "2026-06-14T10:00:10.636264+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 1,
-    "commits": 692,
+    "commits": 693,
     "support_replies": 1000
   },
   "decisions": [
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-06-12T13:00:07.933348+00:00 posted OK",
     "[morning-briefing] 2026-06-13T13:00:06.144579+00:00 posting briefing (293 chars)",
     "[morning-briefing] 2026-06-13T13:00:06.590757+00:00 posted OK",
-    "[ops-feed-publisher] 2026-06-14T08:00:09.561140+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=1 subs=3 commits=692 replies=None decisions=3 overrides=0",
-    "[ops-feed-publisher] 2026-06-14T08:00:11.453665+00:00   pushed.",
-    "[ops-feed-publisher] 2026-06-14T09:00:01.246875+00:00 publishing ops feed..."
+    "[ops-feed-publisher] 2026-06-14T09:00:10.517775+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=1 subs=3 commits=692 replies=1000 decisions=3 overrides=0",
+    "[ops-feed-publisher] 2026-06-14T09:00:12.508892+00:00   pushed.",
+    "[ops-feed-publisher] 2026-06-14T10:00:01.347817+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
