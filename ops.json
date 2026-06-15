@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-15T17:00:14.986733+00:00",
+  "updated": "2026-06-15T18:00:11.849941+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
-    "site_uniques_24h": null,
+    "site_uniques_24h": 6,
     "commits": 714,
     "support_replies": 1000
   },
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-06-14T13:00:09.857601+00:00 posted OK",
     "[morning-briefing] 2026-06-15T13:00:03.732580+00:00 posting briefing (293 chars)",
     "[morning-briefing] 2026-06-15T13:00:04.152435+00:00 posted OK",
-    "[ops-feed-publisher] 2026-06-15T16:00:12.633145+00:00   pushed.",
-    "[ops-feed-publisher] 2026-06-15T17:00:00.954822+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-06-15T17:00:07.639954+00:00   ! posthog err: HTTP Error 503: Service Unavailable"
+    "[ops-feed-publisher] 2026-06-15T17:00:14.988955+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=None subs=3 commits=714 replies=1000 decisions=3 overrides=0",
+    "[ops-feed-publisher] 2026-06-15T17:00:16.998557+00:00   pushed.",
+    "[ops-feed-publisher] 2026-06-15T18:00:01.026450+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
