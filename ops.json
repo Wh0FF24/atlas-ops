@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-17T12:00:10.380076+00:00",
+  "updated": "2026-06-17T13:00:10.018251+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
     "newsletter_subs": 3,
     "site_uniques_24h": 3,
-    "commits": 733,
+    "commits": 734,
     "support_replies": 1000
   },
   "decisions": [
@@ -35,12 +35,12 @@
     "[stripe-poll] 2026-06-10T19:15:44Z polling Stripe charges (last_seen=*** processed=2)",
     "[stripe-poll] 2026-06-10T19:15:45Z   fetched 0 new charges (0 succeeded paid)",
     "[stripe-poll] 2026-06-10T19:15:45Z no new succeeded charges",
-    "[morning-briefing] 2026-06-15T13:00:04.152435+00:00 posted OK",
-    "[morning-briefing] 2026-06-16T13:00:04.910003+00:00 posting briefing (293 chars)",
     "[morning-briefing] 2026-06-16T13:00:05.385772+00:00 posted OK",
-    "[ops-feed-publisher] 2026-06-17T11:00:10.005241+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=3 subs=3 commits=733 replies=1000 decisions=3 overrides=0",
-    "[ops-feed-publisher] 2026-06-17T11:00:11.924596+00:00   pushed.",
-    "[ops-feed-publisher] 2026-06-17T12:00:01.228142+00:00 publishing ops feed..."
+    "[morning-briefing] 2026-06-17T13:00:05.421612+00:00 posting briefing (293 chars)",
+    "[morning-briefing] 2026-06-17T13:00:05.856225+00:00 posted OK",
+    "[ops-feed-publisher] 2026-06-17T12:00:10.381110+00:00   wrote ops.json: rev=$49.0 cust=1 posthog=3 subs=3 commits=733 replies=1000 decisions=3 overrides=0",
+    "[ops-feed-publisher] 2026-06-17T12:00:12.629790+00:00   pushed.",
+    "[ops-feed-publisher] 2026-06-17T13:00:00.968967+00:00 publishing ops feed..."
   ],
   "commit_feed": [],
   "override_count": 0,
