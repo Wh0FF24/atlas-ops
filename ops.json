@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T18:00:05.964409+00:00",
+  "updated": "2026-06-29T19:00:06.742215+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-06-28T13:00:02.577393+00:00 posted OK",
     "[morning-briefing] 2026-06-29T13:00:02.468234+00:00 posting briefing (294 chars)",
     "[morning-briefing] 2026-06-29T13:00:02.724502+00:00 posted OK",
-    "[ops-feed-publisher] 2026-06-29T17:00:07.710977+00:00   pushed.",
-    "[ops-feed-publisher] 2026-06-29T18:00:00.584559+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-06-29T18:00:05.546559+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-06-29T18:00:08.379894+00:00   pushed.",
+    "[ops-feed-publisher] 2026-06-29T19:00:01.061115+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-06-29T19:00:06.119977+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
