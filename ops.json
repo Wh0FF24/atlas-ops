@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-30T12:01:08.295305+00:00",
+  "updated": "2026-07-30T14:01:52.682249+00:00",
   "counters": {
     "revenue_usd": null,
     "customers": null,
-    "newsletter_subs": 3,
+    "newsletter_subs": null,
     "site_uniques_24h": null,
     "commits": 773,
     "support_replies": null
@@ -35,12 +35,12 @@
     "[stripe-poll] 2026-06-10T19:15:44Z polling Stripe charges (last_seen=*** processed=2)",
     "[stripe-poll] 2026-06-10T19:15:45Z   fetched 0 new charges (0 succeeded paid)",
     "[stripe-poll] 2026-06-10T19:15:45Z no new succeeded charges",
-    "[morning-briefing] 2026-07-28T13:00:03.622207+00:00 posted OK",
-    "[morning-briefing] 2026-07-29T13:00:01.955778+00:00 posting briefing (294 chars)",
     "[morning-briefing] 2026-07-29T13:00:02.161477+00:00 posted OK",
-    "[ops-feed-publisher] 2026-07-30T12:00:05.838370+00:00   ! stripe err: <urlopen error [Errno 49] Can't assign requested address>",
-    "[ops-feed-publisher] 2026-07-30T12:00:35.061213+00:00   ! posthog err: <urlopen error _ssl.c:1063: The handshake operation timed out>",
-    "[ops-feed-publisher] 2026-07-30T12:01:08.155088+00:00   ! discord err: <urlopen error [Errno 49] Can't assign requested address>"
+    "[morning-briefing] 2026-07-30T13:01:09.173012+00:00 posting briefing (319 chars)",
+    "[morning-briefing] 2026-07-30T13:01:33.585357+00:00 discord fail: <urlopen error [Errno 49] Can't assign requested address>",
+    "[ops-feed-publisher] 2026-07-30T14:01:25.348198+00:00   ! posthog err: <urlopen error [Errno 49] Can't assign requested address>",
+    "[ops-feed-publisher] 2026-07-30T14:01:51.911241+00:00   ! beehiiv err: <urlopen error [Errno 49] Can't assign requested address>",
+    "[ops-feed-publisher] 2026-07-30T14:01:52.557427+00:00   ! discord err: <urlopen error [Errno 49] Can't assign requested address>"
   ],
   "commit_feed": [],
   "override_count": 0,
