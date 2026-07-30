@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T23:00:38.068218+00:00",
+  "updated": "2026-07-30T01:00:26.548216+00:00",
   "counters": {
     "revenue_usd": null,
     "customers": null,
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-07-28T13:00:03.622207+00:00 posted OK",
     "[morning-briefing] 2026-07-29T13:00:01.955778+00:00 posting briefing (294 chars)",
     "[morning-briefing] 2026-07-29T13:00:02.161477+00:00 posted OK",
-    "[ops-feed-publisher] 2026-07-29T23:00:01.475677+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-07-29T23:00:03.818473+00:00   ! stripe err: <urlopen error [Errno 49] Can't assign requested address>",
-    "[ops-feed-publisher] 2026-07-29T23:00:36.923534+00:00   ! discord err: <urlopen error [Errno 49] Can't assign requested address>"
+    "[ops-feed-publisher] 2026-07-30T01:00:01.667002+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-07-30T01:00:06.083896+00:00   ! stripe err: <urlopen error [Errno 49] Can't assign requested address>",
+    "[ops-feed-publisher] 2026-07-30T01:00:21.959613+00:00   ! discord err: <urlopen error [Errno 49] Can't assign requested address>"
   ],
   "commit_feed": [],
   "override_count": 0,
