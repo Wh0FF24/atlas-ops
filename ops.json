@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T07:00:11.377094+00:00",
+  "updated": "2026-07-31T08:00:15.150464+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-07-29T13:00:02.161477+00:00 posted OK",
     "[morning-briefing] 2026-07-30T13:01:09.173012+00:00 posting briefing (319 chars)",
     "[morning-briefing] 2026-07-30T13:01:33.585357+00:00 discord fail: <urlopen error [Errno 49] Can't assign requested address>",
-    "[ops-feed-publisher] 2026-07-31T06:00:25.547441+00:00   pushed.",
-    "[ops-feed-publisher] 2026-07-31T07:00:01.325425+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-07-31T07:00:10.936708+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-07-31T07:00:13.220100+00:00   pushed.",
+    "[ops-feed-publisher] 2026-07-31T08:00:01.703911+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-07-31T08:00:14.555917+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
