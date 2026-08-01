@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T07:00:20.429863+00:00",
+  "updated": "2026-08-01T08:00:21.087957+00:00",
   "counters": {
     "revenue_usd": 49.0,
     "customers": 1,
@@ -38,9 +38,9 @@
     "[morning-briefing] 2026-07-30T13:01:33.585357+00:00 discord fail: <urlopen error [Errno 49] Can't assign requested address>",
     "[morning-briefing] 2026-07-31T13:00:02.275796+00:00 posting briefing (294 chars)",
     "[morning-briefing] 2026-07-31T13:00:02.864800+00:00 posted OK",
-    "[ops-feed-publisher] 2026-08-01T07:00:01.978577+00:00 publishing ops feed...",
-    "[ops-feed-publisher] 2026-08-01T07:00:17.528604+00:00   ! posthog err: The read operation timed out",
-    "[ops-feed-publisher] 2026-08-01T07:00:20.009684+00:00   ! discord err: HTTP Error 429: Too Many Requests"
+    "[ops-feed-publisher] 2026-08-01T08:00:01.901971+00:00 publishing ops feed...",
+    "[ops-feed-publisher] 2026-08-01T08:00:17.375107+00:00   ! posthog err: The read operation timed out",
+    "[ops-feed-publisher] 2026-08-01T08:00:20.675764+00:00   ! discord err: HTTP Error 429: Too Many Requests"
   ],
   "commit_feed": [],
   "override_count": 0,
